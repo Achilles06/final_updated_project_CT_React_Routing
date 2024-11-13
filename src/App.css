@@ -1,0 +1,94 @@
+/* General App styling */
+.app {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for character grid */
+.character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.character-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.character-item:hover {
+    transform: scale(1.05);
+}
+
+.character-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.character-item h3 {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-top: 10px;
+}
+
+/* Character details styling */
+.character-detail {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.character-detail img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.character-detail h2 {
+    color: #2980b9;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.character-detail p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.character-detail h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.character-detail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.character-detail ul li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #34495e;
+}
+
+/* Comics component styling */
+.comics {
+    padding: 20px;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}

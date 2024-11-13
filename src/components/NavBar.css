@@ -1,0 +1,15 @@
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+.active-link {
+    color: red;
+    font-weight: bold;
+}
